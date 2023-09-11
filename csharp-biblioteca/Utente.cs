@@ -12,7 +12,7 @@ namespace csharp_biblioteca
         public string Nome { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
-        public string Telefono { get; private set; }
+        public int Telefono { get; private set; }
 
         public Utente(string cognome, string nome, string email, string password, string telefono)
         {
